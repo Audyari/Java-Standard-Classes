@@ -12,5 +12,15 @@ public class StringJoinerClass {
             //System.out.println(dataOutput);
         }
         System.out.println(testJoin.toString());
+
+
+        StringJoiner testJoin2 = new StringJoiner(",", "{", "}");
+
+        testJoin2.add("AUDY");
+        testJoin2.add("AUDY");
+        testJoin2.add("AUDY");
+
+        String dataOutput = testJoin2.toString();
+        System.out.println(dataOutput);
     }
 }
