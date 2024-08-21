@@ -44,8 +44,8 @@ public class ObjectsClass {
 
     public static void main(String[] args) {
 
-        TestPanggilData(new Data(null));
-        TestPanggilData(new Data("Panggil Data Tanpa Objects Class"));
+       // TestPanggilData(new Data(null));
+       // TestPanggilData(new Data("Panggil Data Tanpa Objects Class"));
 
         testPakeObjectsClass(new Data(null));
         testPakeObjectsClass(new Data("Panggil Data Dengan Objects Class"));
